@@ -1,0 +1,172 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+     
+
+}
+
+/* html, body{
+    height: 100%;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+   
+} */
+
+
+
+nav{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+     flex-direction: row;
+   
+}
+
+.date{
+    padding-left: 40px;
+    color: aliceblue;
+}
+.ul-list{
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-right: 40px;
+}
+
+.item{
+    padding: 10px;
+    color: white;
+ 
+}
+
+header{
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+}
+
+.item1{
+    background-color: rgb(228, 188, 115);
+
+    
+}
+
+.item2{
+    background-color: lightcoral;
+
+}
+
+.item3{
+    background-color: lightskyblue;
+
+}
+
+.item4{
+    background-color: lightgreen;
+
+}
+
+.item5{
+    background-color: plum;
+    /* flex-basis: 450px;
+    height: 250px;
+    display: flex;
+    /* align-items: center; */
+
+}
+
+main{
+    display: flex;
+    /* flex-direction: column; */
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.second-row{
+    gap: 80px;
+}
+
+.item1, .item2, .item3, .item4, .item5{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    height: 100px;
+   
+}
+
+.div1{
+    background-color: lightskyblue;
+    /* flex-grow: 30; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+     width: 500px;
+     flex: 1;
+    
+}
+
+.div2{
+    background-color: rgb(24, 24, 146);
+    /* flex-grow: 30; */
+    height: 100px;
+    /* width: 500px; */
+    flex: 1;
+    
+}
+
+.div3{
+    background-color: lightblue;
+    /* flex-grow:30; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+     /* width: 500px; */
+     flex: 1;
+
+}
+
+.list-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.list{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    color: rgb(7, 7, 151);
+    /* align-items: center;
+    justify-content: center; */
+    /* gap: 30px; */
+   
+}
