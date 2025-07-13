@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(232, 245, 248);
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* flex-shrink: 2; */
+  
+
+}
+
+.header{
+    text-align: center;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inline{
+    display: flex;
+    gap: 20px;
+
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+  
+    width: 440px;
+}
+
+
+
+.message{
+     width: 900px;
+   
+}
+
+.button{
+    background-color: rgb(29, 156, 235);
+    color: white;
+    border: none;
+    margin-top: 40px;
+    width: 900px;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.button:hover{
+    background-color: rgb(74, 189, 238);
+}
