@@ -1,3 +1,8 @@
+
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: rgb(232, 245, 248);
     margin: 0px;
@@ -10,19 +15,12 @@ body{
 .container{
     background-color: white;
     height: 500px;
-<<<<<<< HEAD
     width: 100%;
-=======
-    width: 1000px;
->>>>>>> 7e09306627ba1c0df123525aaa82a70d88166483
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
     padding: 40px;
-=======
->>>>>>> 7e09306627ba1c0df123525aaa82a70d88166483
 
     /* flex-shrink: 2; */
   
@@ -33,7 +31,6 @@ body{
     text-align: center;
 }
 
-<<<<<<< HEAD
 .h{
     font-size: 50px
 }
@@ -43,38 +40,31 @@ body{
 }
 
 .fa .fa-phone{
-    color: white; background-color: rgb(29, 156, 235); font-size: 55px; padding: 5px; width: 50px; border-radius:8px;
+    color: white; background-color: rgb(29, 156, 235); font-size: 255px; padding: 5px; width: 150px; border-radius:8px;
 }
 form{
     width: 100%;
-=======
-
-form{
->>>>>>> 7e09306627ba1c0df123525aaa82a70d88166483
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 20px;
 
 }
 
 .inline{
-<<<<<<< HEAD
     width: 100%;
-=======
->>>>>>> 7e09306627ba1c0df123525aaa82a70d88166483
     display: flex;
     gap: 20px;
 
 }
 
-<<<<<<< HEAD
 .lable{
     font-size: 20px;
 }
 .name{
     display: flex;
-    width: 50%;
+    flex-grow: 1;
     flex-direction: column;
 }
 
@@ -84,36 +74,20 @@ form{
     margin-top: 30px;
 }
 .email{
-    width: 50%;
-=======
-.name{
-    display: flex;
-    flex-direction: column;
-}
-
-.email{
->>>>>>> 7e09306627ba1c0df123525aaa82a70d88166483
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
 
 .item{
   
-<<<<<<< HEAD
-    /* width: 50%; */
-=======
-    width: 440px;
->>>>>>> 7e09306627ba1c0df123525aaa82a70d88166483
+    width: 100%;
 }
 
 
 
 .message{
-<<<<<<< HEAD
      width: 98%;
-=======
-     width: 900px;
->>>>>>> 7e09306627ba1c0df123525aaa82a70d88166483
    
 }
 
@@ -122,11 +96,7 @@ form{
     color: white;
     border: none;
     margin-top: 40px;
-<<<<<<< HEAD
     width: 100%;
-=======
-    width: 900px;
->>>>>>> 7e09306627ba1c0df123525aaa82a70d88166483
     padding: 20px;
     font-size: 20px;
     display: flex;
@@ -136,13 +106,8 @@ form{
 
 .button:hover{
     background-color: rgb(74, 189, 238);
-<<<<<<< HEAD
 }
-/* 
-.fa-phone{
-    font-size: 20px;
-}
- */
+
 
 
 
@@ -168,6 +133,3 @@ form{
  }
 
   @media screen and (min-width: 1024px){}
-=======
-}
->>>>>>> 7e09306627ba1c0df123525aaa82a70d88166483
