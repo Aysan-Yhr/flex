@@ -1,0 +1,133 @@
+body{
+    background-color: rgb(232, 245, 248);
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+    /* flex-shrink: 2; */
+  
+
+}
+
+.header{
+    text-align: center;
+}
+
+.h{
+    font-size: 50px
+}
+
+.text{
+    font-size: 30px;
+}
+
+.fa .fa-phone{
+    color: white; background-color: rgb(29, 156, 235); font-size: 55px; padding: 5px; width: 50px; border-radius:8px;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inline{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+
+}
+
+.lable{
+    font-size: 20px;
+}
+.name{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+
+.lable-massege{
+    font-size: 20px; 
+    margin-top: 30px;
+}
+.email{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+  
+    /* width: 50%; */
+}
+
+
+
+.message{
+     width: 98%;
+   
+}
+
+.button{
+    background-color: rgb(29, 156, 235);
+    color: white;
+    border: none;
+    margin-top: 40px;
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.button:hover{
+    background-color: rgb(74, 189, 238);
+}
+/* 
+.fa-phone{
+    font-size: 20px;
+}
+ */
+
+
+
+
+
+@media screen and (min-width: 320px){
+    .inline{
+       flex: unset;
+    }
+    .name , .email{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 480px){
+
+
+ 
+}
+
+ @media screen and (min-width: 768px){
+
+ }
+
+  @media screen and (min-width: 1024px){}
