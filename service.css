@@ -3,11 +3,14 @@
     text-align: center;
     margin-bottom: 60px;
 }
+<<<<<<< HEAD
 
 body{
   
     padding: 40px;
 }
+=======
+>>>>>>> 7e09306627ba1c0df123525aaa82a70d88166483
 .flex1{
     display: flex;
     flex-direction: row;
@@ -38,6 +41,7 @@ body{
     color: rgb(240, 166, 55);
 }  
 
+<<<<<<< HEAD
 @media screen and (max-width: 768px){
     .card1 , .card2 , .card3 , .card4 , .card5 , .card6{
        
@@ -68,3 +72,6 @@ body{
         text-align: center;
     }
 }
+=======
+
+>>>>>>> 7e09306627ba1c0df123525aaa82a70d88166483

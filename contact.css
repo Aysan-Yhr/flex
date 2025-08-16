@@ -10,12 +10,19 @@ body{
 .container{
     background-color: white;
     height: 500px;
+<<<<<<< HEAD
     width: 100%;
+=======
+    width: 1000px;
+>>>>>>> 7e09306627ba1c0df123525aaa82a70d88166483
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     padding: 40px;
+=======
+>>>>>>> 7e09306627ba1c0df123525aaa82a70d88166483
 
     /* flex-shrink: 2; */
   
@@ -26,6 +33,7 @@ body{
     text-align: center;
 }
 
+<<<<<<< HEAD
 .h{
     font-size: 50px
 }
@@ -39,6 +47,10 @@ body{
 }
 form{
     width: 100%;
+=======
+
+form{
+>>>>>>> 7e09306627ba1c0df123525aaa82a70d88166483
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,12 +59,16 @@ form{
 }
 
 .inline{
+<<<<<<< HEAD
     width: 100%;
+=======
+>>>>>>> 7e09306627ba1c0df123525aaa82a70d88166483
     display: flex;
     gap: 20px;
 
 }
 
+<<<<<<< HEAD
 .lable{
     font-size: 20px;
 }
@@ -69,19 +85,35 @@ form{
 }
 .email{
     width: 50%;
+=======
+.name{
+    display: flex;
+    flex-direction: column;
+}
+
+.email{
+>>>>>>> 7e09306627ba1c0df123525aaa82a70d88166483
     display: flex;
     flex-direction: column;
 }
 
 .item{
   
+<<<<<<< HEAD
     /* width: 50%; */
+=======
+    width: 440px;
+>>>>>>> 7e09306627ba1c0df123525aaa82a70d88166483
 }
 
 
 
 .message{
+<<<<<<< HEAD
      width: 98%;
+=======
+     width: 900px;
+>>>>>>> 7e09306627ba1c0df123525aaa82a70d88166483
    
 }
 
@@ -90,7 +122,11 @@ form{
     color: white;
     border: none;
     margin-top: 40px;
+<<<<<<< HEAD
     width: 100%;
+=======
+    width: 900px;
+>>>>>>> 7e09306627ba1c0df123525aaa82a70d88166483
     padding: 20px;
     font-size: 20px;
     display: flex;
@@ -100,6 +136,7 @@ form{
 
 .button:hover{
     background-color: rgb(74, 189, 238);
+<<<<<<< HEAD
 }
 /* 
 .fa-phone{
@@ -131,3 +168,6 @@ form{
  }
 
   @media screen and (min-width: 1024px){}
+=======
+}
+>>>>>>> 7e09306627ba1c0df123525aaa82a70d88166483
